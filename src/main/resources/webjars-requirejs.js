@@ -1,5 +1,7 @@
 requirejs.config({
-  shim: {
-    'fullcalendar': [ 'webjars!jquery.js' ]
-  }
+  paths: { 
+    "fullcalendar": webjars.path("fullcalendar", "fullcalendar"),
+    "fullcalendar-css": webjars.path("fullcalendar", "fullcalendar")  
+  },
+  shim: { "fullcalendar": [ "jquery" ] }
 });
