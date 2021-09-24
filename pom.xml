@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>fullcalendar</artifactId>
-    <version>5.9.1-SNAPSHOT</version>
+    <version>4.4.3-SNAPSHOT</version>
     <name>FullCalendar</name>
     <description>WebJar for FullCalendar</description>
     <url>http://webjars.org</url>
@@ -112,10 +112,10 @@
                         <configuration>
                             <target>
                                 <echo message="unzip archive" />
-                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}/${project.artifactId}-${version.unsnapshot}" />
+                                <unzip src="${project.build.directory}/${project.artifactId}.zip" dest="${project.build.directory}" />
                                 <echo message="moving resources" />
                                 <move todir="${destDir}">
-                                    <fileset dir="${project.build.directory}/${project.artifactId}-${version.unsnapshot}/lib" />
+                                    <fileset dir="${project.build.directory}/${project.artifactId}-${version.unsnapshot}/packages" />
                                 </move>
                             </target>
                         </configuration>
