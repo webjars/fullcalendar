@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>fullcalendar</artifactId>
-    <version>5.10.1</version>
+    <version>5.10.2-SNAPSHOT</version>
     <name>FullCalendar</name>
     <description>WebJar for FullCalendar</description>
     <url>http://webjars.org</url>
@@ -36,7 +36,7 @@
         <url>http://github.com/webjars/fullcalendar</url>
         <connection>scm:git:https://github.com/webjars/fullcalendar.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/fullcalendar.git</developerConnection>
-        <tag>fullcalendar-5.10.1</tag>
+        <tag>HEAD</tag>
     </scm>
     
     <dependencies>
