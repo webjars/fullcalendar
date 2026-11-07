@@ -1,5 +1,7 @@
 WebJar for FullCalendar
 
-More info: http://webjars.org
+More info: https://webjars.org
 
-Upstream: http://arshaw.com/fullcalendar
+Upstream: https://github.com/fullcalendar/fullcalendar
+
+This WebJar is deployable via https://webjars.org
